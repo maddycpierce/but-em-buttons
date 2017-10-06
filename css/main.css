@@ -7,7 +7,10 @@ html {
   background: url("../images/starfield.png") repeat;
 }
 
-h1,
+h1 {
+  text-shadow: 0 0 10px rgba(255, 255, 255, .7);
+}
+
 p {
   text-shadow: 0 0 20px rgba(255, 255, 255, .7);
 }
@@ -17,14 +20,19 @@ a {
   text-decoration: none;
 }
 
-.btn {
-  border-color: #b4fff4;
+.btn-ghost {
+  border-color: #90ccc3;
   border-radius: 10px;
   text-shadow: 0 0 20px rgba(180, 255, 244, .2);
+  padding-top: .5em;
   padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 0.25em;
+
+  transition: background-color 1s ease-in-out;
 }
 
-.btn:hover {
+.btn-ghost:hover {
   border-color: #b4fff4;
   border-radius: 10px;
   background-color: rgba(180, 255, 244, .2);
