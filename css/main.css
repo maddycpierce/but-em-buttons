@@ -6,3 +6,26 @@ html {
 .banner {
   background: url("../images/starfield.png") repeat;
 }
+
+h1,
+p {
+  text-shadow: 0 0 20px rgba(255, 255, 255, .7);
+}
+
+a {
+  color: #b4fff4;
+  text-decoration: none;
+}
+
+.btn {
+  border-color: #b4fff4;
+  border-radius: 10px;
+  text-shadow: 0 0 20px rgba(180, 255, 244, .2);
+  padding-bottom: 1em;
+}
+
+.btn:hover {
+  border-color: #b4fff4;
+  border-radius: 10px;
+  background-color: rgba(180, 255, 244, .2);
+}
