@@ -17,6 +17,7 @@ html {
 
 .btn:hover {
   padding: 2em 3em .25em .75em;
+  transition: all 250ms ease;
 }
 
 .btn-wrapper a {
@@ -59,4 +60,5 @@ html {
 .btn-wrapper:active .icon,
 .btn-wrapper:focus .icon {
   transform: translate(0, -.75em);
+  transition: all 250ms ease;
 }
