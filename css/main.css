@@ -12,12 +12,11 @@ html {
 }
 
 .btn {
-  padding: .25em 3em 3em .75em;
+  padding: .75em 2.5em 1em .75em;
 }
 
-.btn:hover {
-  padding: 2em 3em .25em .75em;
-  transition: all 250ms ease;
+.btn:active {
+  padding-top: 1em;
 }
 
 .btn-wrapper a {
@@ -39,6 +38,7 @@ html {
   border-color: #90ccc3;
   color: #b4fff4;
   transform: translate(0, .25em);
+  transition: all 250ms ease-in-out;
 }
 
 .icon,
@@ -46,19 +46,18 @@ html {
   transition: all 250ms ease;
 }
 
-.icon {
-  left: 45px;
-  top: -25px;
+i {
+  left: 3em;
 }
 
 .icon:hover {
-  transition: all 250ms ease;
-  transform: translate(.5em);
+  transition: all 250ms ease-in-out;
+  transform: translate(.25em);
 }
 
 .btn-wrapper:hover .icon,
 .btn-wrapper:active .icon,
 .btn-wrapper:focus .icon {
   transform: translate(0, -.75em);
-  transition: all 250ms ease;
+  transition: all 250ms ease-in-out;
 }
