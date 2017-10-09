@@ -31,13 +31,16 @@ html {
   color: #b4fff4;
 }
 
+.btn-ghost {
+  transition: all 250ms ease-in-out;
+}
+
 .btn-wrapper a:active,
 .btn-wrapper a:focus {
   background-color: rgba(180, 255, 244, .2);
   border-color: #90ccc3;
   color: #b4fff4;
   top: -.25em;
-  transition: all 250ms ease-in-out;
 }
 
 .icon,
